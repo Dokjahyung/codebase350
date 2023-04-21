@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="BRcon.js"></script>
+        <link rel="stylesheet" href="BR.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BR Conncections</title>
+    </head>
+    <body>
+        <div class = "row">
+            <div class = "data-container">
+                <img id = "myoware" src="myoware.png" alt=""/>
+                <div id = "connection-container">
+                    <button class = "button" id = "connect">Connect</button>
+                    <button class = "button" id = "record">Record Data</button>
+
+                </div>
+                Readings:
+                <p style="font-size: 20px;">##%</p>
+                Data:
+                <p style="font-size: 20px;">##%</p>
+            </div>
+        <div class = "data-container">
+            <img id = "plant" src="plant.png" alt=""/>
+        </div>
+            <div class = "data-container">
+                <div class = "patient-container">
+                    <p class = "patient"> Jack's Plant </p>
+                    <br><br>
+                    Soil Composition:
+                    <textarea name="patient-notes" id="patient" cols="30" rows="25"></textarea>
+                    <div style="display: flex; justify-content: center; width: 100%;">
+                        <button style="width: 100px;">save</button>
+                    </div>
+                </div>
+            </div>
+            <div id = "patient-bar" class="data-container">
+
+            </div>
+        </div>
+    </body>
+</html>
